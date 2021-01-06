@@ -6,7 +6,33 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
 
+    width: fit-content;
+    height: fit-content;
+    font-size: 25px;
+    color: #C31F48; 
+ 
+
+}
+.experience-header{
+    width: fit-content;
+    height: fit-content;
+    font-size: 30px;
+    color: #800080; 
+    margin-left: 7.5%;
+
+}
+
+h3{
+    width: fit-content;
+    height: fit-content;
+    font-size: 15px;
+    color: #173F5F; 
+
+
+
+}
 .namehighlight{
  color: orange;
 }
@@ -48,6 +74,7 @@ section{
     border-radius: 10px;
     color: white;
     font-weight: 700;
+    margin-top: 10px;
 
 
 }
@@ -72,7 +99,37 @@ border-radius: 20px;
     border-radius: 10px;
     color: white;
     font-weight: 700;
+    margin-top: 10px;
 
 }
 
+.single-experience{
+
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height : 70%;
+    background-color: white;
+}
+.experience-area{
+
+    background-image: url("Images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#full-stack{
+
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightSalmon, Tomato);
+    border-image-slice: 1;
+   
+
+}
+
+#rpa-developer{
+
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,#20BF55, #01BAEF);
+    border-image-slice: 1;
+}
 
