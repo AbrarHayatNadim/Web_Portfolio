@@ -1,56 +1,78 @@
 
 body{
     font-family: sans-serif;
-   background-color: lightsalmon;
-}
-
-.topbanner{
-    width: 100%;
-    height: 100%px;
-
-
-
-}
-
-.topbannerimage{
- 
-    width: 100%;
-    height: 100%;
-
+    margin: 0;
 }
 h1{
     font-size: 50px;
-    margin-top: -300px;
-    
-   
 }
 
 .namehighlight{
-
-    color: orange;
+ color: orange;
 }
-.descriptionpara{
-
-    font-size: 20px;
-    color: black;
-    width: 50%;
-    height: 50px;
-
-}
-.Banner{
- 
+.half-width{
     width: 40%;
-    height: 50%;
-    opacity: -10px;
-    margin-left: 50%;
-    margin-top: -300px;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
 
+.half-width img{
+    
+
+    margin-top: 20px;
+
+    width: 70%;
+}
+.top-banner{
+    background-image: url("Images/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+.descriptionpara{
+    width: 100%;
+    word-wrap: break-word;   
+
+}
+
+section{
+    height: 500px;
+    padding-bottom: 10px;
+
+}
+.link-btn{
+  
+    text-decoration: none;
+    background-image: linear-gradient( 45deg,lightSalmon, Tomato);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
 
 
 }
-.image{
- width: 400px;
- height: 300px;
 
+.dreamarea{
+    background-image: url("Images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+
+.imagefull{
+border-radius: 20px;
 
 }
+
+.btn-success{
+    text-decoration: none;
+    background-image: linear-gradient( 45deg,#20BF55, #01BAEF);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+
+}
+
+
